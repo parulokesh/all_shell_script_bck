@@ -1,4 +1,5 @@
 #!/bin/bash
+echo $1
 echo "Enter the number"
 read num
 rem=`expr $num % 2`
