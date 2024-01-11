@@ -2,13 +2,13 @@
 echo $1 $2
 echo $value1
 echo "Enter the first value"
-read a
+read value1
 echo "Enter the second value"
-read b
+read value2
 
-if [ $a -lt $b ]
+if [ $value1 -lt $value2 ]
 then
-	echo "The value of a is smallerthan b"
+	echo "The value of value1 is smallerthan value2"
 else
-	echo "The value of b is smallerthan a"
+	echo "The value of value2 is smallerthan value1"
 fi
