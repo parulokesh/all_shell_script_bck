@@ -8,7 +8,7 @@ read value2
 
 if [ $value1 -lt $value2 ]
 then
-	echo "The value of value1 is smallerthan value2"
+	echo "The value1 is smallerthan value2"
 else
-	echo "The value of value2 is smallerthan value1"
+	echo "The value2 is smallerthan value1"
 fi
